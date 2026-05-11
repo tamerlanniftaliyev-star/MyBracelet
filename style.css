@@ -45,6 +45,7 @@ nav {
     height: 35px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .searching-photos img {
@@ -89,6 +90,15 @@ ul {
 
 .sections .option:hover {
     transform: scale(1.1);
+}
+
+.About {
+    margin: 20px;
+}
+
+.About p {
+    margin-top: 20px;
+    text-align: center;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
