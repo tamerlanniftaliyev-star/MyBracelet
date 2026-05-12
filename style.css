@@ -105,9 +105,24 @@ img {
     object-fit: cover;
 }
 
+.moving-writing {
+    font-weight: 600;
+    font-size: 28px;
+    background-color: #fcb10d;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
     .product-cards {
         grid-template-columns: repeat(1, 1fr);
+    }
+    img {
+        width: 100%;
+        height: 180px;
     }
 }
 
@@ -115,11 +130,19 @@ img {
     .product-cards {
         grid-template-columns: repeat(2, 1fr);
     }
+    img {
+        width: 100%;
+        height: 350px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
     .product-cards {
         grid-template-columns: repeat(3, 1fr);
+    }
+    img {
+        width: 100%;
+        height: 520px;
     }
 }
 
@@ -127,4 +150,9 @@ img {
     .product-cards {
         grid-template-columns: repeat(4, 1fr);
     }
+    img {
+        width: 100%;
+        height: 750px;
+    }
 }
+
