@@ -14,11 +14,19 @@ body {
     .product-cards {
         grid-template-columns: repeat(1, 1fr);
     }
+    img {
+        width: 100%;
+        height: 180px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
     .product-cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+    img {
+        width: 100%;
+        height: 350px;
     }
 }
 
@@ -26,10 +34,18 @@ body {
     .product-cards {
         grid-template-columns: repeat(3, 1fr);
     }
+    img {
+        width: 100%;
+        height: 520px;
+    }
 }
 
 @media (min-width: 1025px) {
     .product-cards {
         grid-template-columns: repeat(4, 1fr);
+    }
+    img {
+        width: 100%;
+        height: 750px;
     }
 }
