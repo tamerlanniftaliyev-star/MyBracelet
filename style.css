@@ -79,7 +79,6 @@ button:active {
 }
 
 .name-of-the-company {
-    display: flex;
     gap: 10px;
     justify-content: space-between;
     align-items: center;
@@ -100,7 +99,12 @@ a {
     .product-cards {
         grid-template-columns: repeat(1, 1fr);
     }
-
+    h2 {
+        font-size: 16px;
+    }
+    .name-of-the-company {
+        flex-direction: column;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {

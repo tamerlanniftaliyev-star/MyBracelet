@@ -119,12 +119,20 @@ input {
     .product-cards {
         grid-template-columns: repeat(1, 1fr);
     }
+    .search-products {
+        display: flex;
+        justify-content: center;
+    }
 
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
     .product-cards {
         grid-template-columns: repeat(1, 1fr);
+    }
+    .search-products {
+        display: flex;
+        justify-content: center;
     }
 }
 
