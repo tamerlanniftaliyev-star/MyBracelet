@@ -127,6 +127,9 @@ input {
         display: flex;
         justify-content: center;
     }
+    p {
+        font-size: 16px;
+    }
 
 }
 
@@ -138,6 +141,19 @@ input {
         display: flex;
         justify-content: center;
     }
+    p {
+        font-size: 16px;
+    }
+    .dashboard {
+        width: 80px;
+    }
+    .dashboard {
+        width: 80px;
+    }
+    .dashboard-items a {
+        font-size: 11px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

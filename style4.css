@@ -122,6 +122,12 @@ input {
         display: flex;
         justify-content: center;
     }
+    p {
+        font-size: 16px;
+    }
+    .dashboard {
+        width: 80px;
+    }
 
 }
 
@@ -132,6 +138,15 @@ input {
     .search-products {
         display: flex;
         justify-content: center;
+    }
+    p {
+        font-size: 16px;
+    }
+    .dashboard {
+        width: 80px;
+    }
+    .dashboard-items a {
+        font-size: 11px;
     }
 }
 
