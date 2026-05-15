@@ -41,6 +41,8 @@
 body {
     padding-left: 200px;
     height: 100vh;
+    background: url(WhatsApp\ Image\ 2026-05-15\ at\ 19.40.59.jpeg);
+    
 }
 
 .welcome {
@@ -89,6 +91,10 @@ button:active {
 
 a {
     text-decoration: none;
+}
+
+.name-of-the-company p {
+    color: black;
 }
 
 .just-name {
