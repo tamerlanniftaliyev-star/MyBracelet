@@ -85,12 +85,7 @@ button:active {
     align-items: center;
     font-size: 18px;
     margin-bottom: 25px;
-}
-
-.name-of-the-company img {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
+    text-decoration: none;
 }
 
 .just-name {
