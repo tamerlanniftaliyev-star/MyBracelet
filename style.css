@@ -48,12 +48,13 @@ body {
     margin: 20px;
 }
 
+
 .Home h1 {
     color: black;
     margin-bottom: 20px;
 }
 
-.Home button {
+button {
     border-radius: 10px;
     background-color: #0224a1;
     width: 150px;
@@ -75,7 +76,6 @@ button:active {
 .button1 {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .name-of-the-company {
