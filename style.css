@@ -109,6 +109,9 @@ a {
     .dashboard-items a {
         font-size: 11px;
     }
+    .Home p {
+        font-size: 16px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -123,6 +126,9 @@ a {
     }
     .dashboard-items a {
         font-size: 11px;
+    }
+    .Home p {
+        font-size: 16px;
     }
 
 }

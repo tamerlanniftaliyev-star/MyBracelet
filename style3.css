@@ -132,6 +132,9 @@ input {
     .dashboard-items a {
         font-size: 11px;
     }
+    .Home p {
+        font-size: 16px;
+    }
 
 }
 
@@ -151,6 +154,9 @@ input {
     }
     .dashboard-items a {
         font-size: 11px;
+    }
+    .Home p {
+        font-size: 16px;
     }
 }
 

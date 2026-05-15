@@ -130,6 +130,15 @@ input {
     p {
         font-size: 16px;
     }
+    .dashboard {
+        width: 80px;
+    }
+    .dashboard-items a {
+        font-size: 11px;
+    }
+    .Home p {
+        font-size: 16px;
+    }
 
 }
 
@@ -147,11 +156,11 @@ input {
     .dashboard {
         width: 80px;
     }
-    .dashboard {
-        width: 80px;
-    }
     .dashboard-items a {
         font-size: 11px;
+    }
+    .Home p {
+        font-size: 16px;
     }
 
 }
