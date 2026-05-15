@@ -128,8 +128,8 @@ input {
     .dashboard {
         width: 80px;
     }
-    .Home p {
-        font-size: 16px;
+    .dashboard-items a {
+        font-size: 11px;
     }
 
 }
@@ -150,9 +150,6 @@ input {
     }
     .dashboard-items a {
         font-size: 11px;
-    }
-    .Home p {
-        font-size: 16px;
     }
 }
 
