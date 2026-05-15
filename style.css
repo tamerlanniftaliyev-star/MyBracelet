@@ -85,6 +85,9 @@ button:active {
     align-items: center;
     font-size: 18px;
     margin-bottom: 25px;
+}
+
+.name-of-the-company a {
     text-decoration: none;
 }
 
