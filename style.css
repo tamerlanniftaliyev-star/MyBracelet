@@ -81,12 +81,21 @@ button:active {
 .name-of-the-company {
     display: flex;
     gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 25px;
 }
 
 .name-of-the-company img {
     width: 40px;
     height: 40px;
     object-fit: cover;
+}
+
+.just-name {
+    font-size: 30px;
+    color: black;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
