@@ -106,7 +106,7 @@ a {
     .product-cards {
         grid-template-columns: repeat(1, 1fr);
     }
-    p {
+    .contact p {
         font-size: 16px;
     }
     .dashboard {
@@ -115,16 +115,17 @@ a {
     .dashboard-items a {
         font-size: 11px;
     }
-    .Home {
-        margin-left: 5px;
+    .just-name p {
+        font-size: 24px;
     }
+
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
     .product-cards {
         grid-template-columns: repeat(1, 1fr);
     }
-    p {
+    .contact p {
         font-size: 16px;
     }
     .dashboard {
@@ -133,8 +134,8 @@ a {
     .dashboard-items a {
         font-size: 11px;
     }
-    .Home {
-        margin-left: 5px;
+    .just-name p {
+        font-size: 24px;
     }
 
 }
