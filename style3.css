@@ -135,6 +135,9 @@ input {
     .Home {
         margin-left: 5px;
     }
+    .product-cards {
+        margin-right: 20px;
+    }
 
 }
 
@@ -157,6 +160,9 @@ input {
     }
     .Home {
         margin-left: 5px;
+    }
+    .product-cards {
+        margin-right: 20px;
     }
     
 }
