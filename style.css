@@ -7,7 +7,7 @@
 .dashboard {
     background-color: #0f0f0f;
     width: 200px;
-    min-height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,7 +31,6 @@
 .dashboard-items a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
 }
 
 .dashboard-items li {
