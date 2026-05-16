@@ -109,7 +109,10 @@ a {
         font-size: 16px;
     }
     .dashboard {
-        width: 80px;
+        width: 100%;
+        height: 60px;
+        top: 0;
+        left: 0;
     }
     .dashboard-items a {
         font-size: 11px;
@@ -117,6 +120,14 @@ a {
     .just-name p {
         font-size: 24px;
     }
+    body {
+        padding-top: 60px;
+    }
+    ul {
+        display: flex;
+        gap: 40px;
+    }
+
 
 }
 
@@ -128,7 +139,10 @@ a {
         font-size: 16px;
     }
     .dashboard {
-        width: 80px;
+        width: 100%;
+        height: 60px;
+        top: 0;
+        left: 0;
     }
     .dashboard-items a {
         font-size: 11px;
@@ -136,7 +150,14 @@ a {
     .just-name p {
         font-size: 24px;
     }
-
+    
+    body {
+        padding-top: 60px;
+    }
+    ul {
+        display: flex;
+        gap: 40px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
