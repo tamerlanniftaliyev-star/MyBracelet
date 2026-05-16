@@ -1,0 +1,47 @@
+.everything {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    background-color: #8802a3;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #1300ba;
+    background: radial-gradient(circle, rgba(19, 0, 186, 1) 0%, rgba(156, 45, 196, 1) 50%);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .everything {
+        width: 160px;
+        height: 180px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .everything {
+        width: 160px;
+        height: 180px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .everything {
+        width: 240px;
+        height: 275px;
+    }
+}

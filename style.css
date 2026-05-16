@@ -58,10 +58,10 @@ body {
 
 button {
     border-radius: 10px;
-    background-color: #0224a1;
+    background-color: gold;
     width: 150px;
     height: 45px;
-    border: #0224a1;
+    border: gold;
     font-size: 16px;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -100,6 +100,8 @@ a {
     font-size: 30px;
     color: black;
 }
+
+
 
 @media (min-width: 320px) and (max-width: 480px) {
     .product-cards {
