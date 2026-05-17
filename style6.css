@@ -123,7 +123,8 @@ button {
     }
 
     .product-cards {
-        margin-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     body {
@@ -150,7 +151,8 @@ button {
     }
 
     .product-cards {
-        margin-right: 20px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     body {
