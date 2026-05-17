@@ -10,23 +10,82 @@
     border-radius: 20px;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashboard {
+    background-color: #0f0f0f;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.dashboard-items {
+    transition: transform 0.3s ease;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dashboard-items:hover {
+    transform: scale(1.2);
+    background-color: #121212;
+}
+
+.dashboard-items a {
+    text-decoration: none;
+    color: white;
+}
+
+.dashboard-items li {
+    list-style-type: none;
+}
+
+body {
+    padding-left: 200px;
+    height: 100vh;
+    background: url(WhatsApp\ Image\ 2026-05-15\ at\ 19.40.59.jpeg);
+    
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+
 a {
     text-decoration: none;
 }
 
-h2 {
-    margin-bottom: 30px;
-}
-
 body {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
     background: #1300ba;
     background: radial-gradient(circle, rgba(19, 0, 186, 1) 0%, rgba(156, 45, 196, 1) 50%);
+    padding-left: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
@@ -43,6 +102,5 @@ button {
 .buttons-for-contact {
     display: flex;
     gap: 30px;
-    
-}
 
+}
