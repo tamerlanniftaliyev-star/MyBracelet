@@ -46,23 +46,3 @@ button {
     
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
-    .everything {
-        width: 160px;
-        height: 180px;
-    }
-}
-
-@media (min-width: 481px) and (max-width: 767px) {
-    .everything {
-        width: 160px;
-        height: 180px;
-    }
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-    .everything {
-        width: 240px;
-        height: 275px;
-    }
-}
