@@ -14,6 +14,10 @@ a {
     text-decoration: none;
 }
 
+h2 {
+    margin-bottom: 30px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -23,6 +27,23 @@ body {
     align-items: center;
     background: #1300ba;
     background: radial-gradient(circle, rgba(19, 0, 186, 1) 0%, rgba(156, 45, 196, 1) 50%);
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.buttons-for-contact {
+    display: flex;
+    gap: 30px;
+    
 }
 
 @media (min-width: 320px) and (max-width: 480px) {

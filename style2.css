@@ -125,6 +125,7 @@ input {
     transition: transform 0.3 ease;
     background-color: gold;
     border: gold;
+    cursor: pointer;
 }
 
 .product-card button:hover {
