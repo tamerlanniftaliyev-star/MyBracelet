@@ -189,7 +189,10 @@ a {
         margin-left: auto;
         margin-right: auto;
     }
-
+    .slider img {
+        width: 100px;
+        height: 65px;
+    }
 
 }
 
