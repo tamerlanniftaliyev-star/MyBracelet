@@ -105,7 +105,58 @@ a {
     color: black;
 }
 
+.About-us {
+    margin-left: 30px;
+    margin-bottom: 35px;
+}
 
+.About-us ul {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.About-us li {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #c70606;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+
+}
+
+.About-us li:hover {
+    transform: scale(1.2);
+}
+
+.slider img {
+    object-fit: cover;
+    width: 20%;
+    height: 25vh;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+}
+
+.button2 button {
+    background-color: darkblue;
+    width: 50px;
+    height: 30px;
+}
+
+.button2 {
+    display: flex;
+    gap: 115px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    justify-content: center;
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
     .product-cards {

@@ -130,14 +130,14 @@ input {
 .product-card button {
     border-radius: 10px;
     padding: 5px;
-    transition: transform 0.3 ease;
+    transition: transform 0.3s ease;
     background-color: gold;
     border: gold;
     cursor: pointer;
 }
 
 .product-card button:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .product-card button:active {
