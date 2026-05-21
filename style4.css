@@ -139,6 +139,35 @@ input {
     transform: scale(0.95);
 }
 
+.choosing {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.choosing li {
+    list-style-type: none;
+}
+
+.choose a {
+    color: white;
+}
+
+.choose {
+    transition: transform 0.2s ease;
+    padding: 5px;
+}
+
+.choose:hover {
+    transform: scale(1.2);
+}
+
+.options {
+    background-color: #01037a;
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
     .product-cards {
         grid-template-columns: repeat(1, 1fr);

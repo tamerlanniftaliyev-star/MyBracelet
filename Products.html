@@ -58,34 +58,22 @@
         <div class="Products">
             <div class="name-of-the-company">
                 <img src="SmallSquareLogoJpg.jpg" alt="">
-                <h1>MyBracelet</h1>
+                <h1 style="text-align: center;">MyBracelet</h1>
             </div>
-            <div class="search-products">
+            
+            <div class="options">
+                <ul class="choosing">
+                    <div class="choose">
+                        <li><a href="Bracelets.html">Bracelets</a></li>
+                    </div>
+                    <div class="choose">
+                        <li><a href="Keychains.html">Keychains</a></li>
+                    </div>
 
-                <input type="text" id="inp" placeholder="Search...">
-                <button type="submit" onclick="showInput()">🔎︎</button>
-                <script>
-                    function showInput() {
-                        const x = document.getElementById("inp").value
-                        if (x === "Bracelet") {
-                            window.location.href = "Bracelets.html"
-                        }
-                        else if (x === "Keychain") {
-                            window.location.href = "Keychains.html"
-                        }
-                        else if (x === "keychain") {
-                            window.location.href = "Keychains.html"
-                        }
-                        else if (x === "bracelet") {
-                            window.location.href = "Bracelets.html"
-                        }
-                        else {
-                            window.location.href = "Nothing.html"
-                        }
-                    }
-
-                </script>
+                </ul>
             </div>
+            
+
             <div class="product-cards">
                 <div class="product-card">
                     <img src="WhatsApp Image 2026-05-10 at 23.18.31 (1).jpeg" alt="">
@@ -312,6 +300,7 @@
 
             </div>
         </div>
+
     </div>
 </body>
 
